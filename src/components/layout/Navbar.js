@@ -5,7 +5,7 @@ const Navbar = () => {
 
   const links = (
   <Fragment>
-    <Link to='/'>
+    <Link to='/my-portfolio'>
       <h4 id='title'><i id='home' className='fas fa-home'></i>Home</h4>
     </Link>
     <div className="top-right-nav">
