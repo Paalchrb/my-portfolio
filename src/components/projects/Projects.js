@@ -7,7 +7,7 @@ const Projects = (props) => {
       header: '"An open platform designed to ease the B2B procurement- and salesprocesses for small businesses"',
       description: 'Project was created during a two weeks examination project at the Academy Javascript 2019 bootcamp. Written in collaboration with Robin Fiske, Frank Holmslet and Espen Sørby. The application is built with a MongoDB database and node.js express server for our back-end and react/redux for our front-end. You can try it out with our demo login, username: demo@test.no password: demo123.',
       url: 'https://perf-b2b.herokuapp.com/',
-      imageUrl: './images/frontpage.png'
+      imageUrl: './my-portfolio/images/frontpage.png'
     }
   ];
 
