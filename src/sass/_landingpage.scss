@@ -1,0 +1,54 @@
+// LANDING PAGE
+.landing-page {
+  height: 100vh;
+  width: 100vw;
+  background: 
+    linear-gradient(
+      to right,
+      rgba($black, 0.8),
+      rgba($darker, 0.15)
+    ),
+    url('../assets/portfolio.png') no-repeat center top; 
+  background-size: cover;
+  .introduction {
+    padding-top: 35vh;
+    padding-left: 5rem;
+    color: $light;
+    .greeting {
+      font-size: 3rem;
+      padding: 3rem 0rem;
+      font-weight: 200;
+    }
+    .name {
+      width: 34vw;
+      font-size: 5rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid $dark;
+      &--last {
+        color: $accent;
+        font-weight: 700;
+      }
+    }
+    .skillset {
+      padding: 3rem 0;
+      font-size: 2rem;
+    }
+    .social-icons {
+      font-size: 3rem;
+      i {
+        color: $light;
+        margin-right: 1.8rem;
+        &:hover {
+          color: $accent;
+        }
+      }
+    }
+  }
+  footer {
+    position: absolute;
+    margin-left: 5rem;
+    bottom: 2rem;
+    font-size: 1.3rem;
+    color: $light;
+  }
+}
