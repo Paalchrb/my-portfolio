@@ -1,18 +1,9 @@
-import React from 'react'
+import React from 'react';
+import projectsInfo from '../../assets/projectsInfo';
 
-const Projects = (props) => {
-  const projectsInfo = [
-    {
-      name: 'BTB Market',
-      header: '"An open platform designed to ease the B2B procurement- and salesprocesses for small businesses"',
-      description: 'Project was created during a two weeks examination project at the Academy Javascript 2019 bootcamp. Written in collaboration with Robin Fiske, Frank Holmslet and Espen Sørby. The application is built with a MongoDB database and node.js express server for our back-end and react/redux for our front-end. You can try it out with our demo login, username: demo@test.no password: demo123.',
-      url: 'https://perf-b2b.herokuapp.com/',
-      imageUrl: './my-portfolio/images/frontpage.png'
-    }
-  ];
-
+const Projects = () => {
   const handleClick = (url) => {
-    window.location.replace(url);
+    window.open(url, '_blank');
   }
 
   const projectsJSX = projectsInfo.map((project, index) => (
@@ -21,9 +12,14 @@ const Projects = (props) => {
       <h2>{project.name}</h2>
       <div className='card-text-content' >
         <h4>{project.header}</h4> 
-        <div></div>
-        <div></div>
         <p className='description'>{project.description}</p>
+        <div className="project-icons">
+          {
+            project.devIcons.map((icon, index) => (
+              <i key={index} className={`devicon-${icon}`}></i>
+            ))
+          }
+        </div>
       </div>
       <button onClick={() => handleClick(project.url)}>
         Check out project!

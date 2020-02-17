@@ -37,11 +37,26 @@
         text-align: center;
         line-height: 3rem;
       }
-    }
-    p {
-      font-size: 1.2rem;
-      line-height: 1.7rem;
-      padding: 1rem;
+      p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        padding: 1rem;
+        grid-column: 2 / 3;
+      }
+      .project-icons {
+        font-size: 4rem;
+        grid-column: 2 / 3;
+        color: $darkest;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        i {
+          padding: 1rem;
+          &:hover {
+            color: $darkaccent;
+          }
+        }
+      }
     }
   }
 }
