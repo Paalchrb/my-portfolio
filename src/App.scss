@@ -4,6 +4,7 @@
 @import './sass/landingpage';
 @import './sass/notfound';
 @import './sass/projects';
+@import './sass/about';
 
 
 // GENERAL STYLES
@@ -17,6 +18,7 @@ body {
   background-color: $light;
 }
 
+// CONTAINERS
 .main-container {
   margin: 0 auto;
   margin-top: $navbar-height;
@@ -29,80 +31,3 @@ body {
 }
 
 
-.about-card {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  border-radius: $radius;
-  background-color: $lighter;
-  width: 100%;
-  overflow: hidden;
-  grid-column: 1 / 2;
-  box-shadow: 
-  0px 0px 8px 0px rgba(0, 0, 0, 0.1);
-  .name-header {
-    font-size: 5rem;
-    font-weight: 700;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 3rem;
-  }
-  .about-text {
-    font-size: 1.35rem;
-    line-height: 2.5rem;
-    padding: 2rem 4rem 3rem 4rem;
-
-  }
-  .experience-container {
-    display: grid;
-    margin: 1rem 4rem;
-    font-weight: 1.4rem;
-    .header {
-      font-size: 2.2rem;
-      padding: 1rem;
-      padding-left: 0;
-      grid-column: 1 / 2;
-      text-align: left;
-      border-bottom: 2px $darkest solid;
-      padding-bottom: 1.5rem;
-      margin-top: 5rem;
-    }
-    .education-item {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-    }
-    .bottom-head {
-      margin-top: 3rem;
-    }
-  }
-  .tech-header {
-    margin-top: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-  }
-  .tech-icons {
-    font-size: 5rem;
-    color: $darkest;
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 3;
-    i {
-      padding: 1rem;
-      &:hover {
-        color: $darkaccent;
-      }
-    }
-  }
-}
-
-.job-desc {
-  font-size: 0.95rem;
-}
-
-.from-to, .description {
-  line-height: 2rem;
-  font-size: 1.3rem;
-  padding: 1rem;
-  padding-left: 0;
-  font-weight: 900;
-}

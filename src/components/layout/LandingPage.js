@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const LandingPage = () => {
   return (
     <div className='landing-page'>
       <div className='introduction'>
-        <h1 className="name">Pål-Christian <span className="name--last">By</span>
-        </h1>
+        <h1 className="name">Pål-Christian <span className="name--last">By</span></h1>
         <h2 className='skillset'>Web Developer & Programmer</h2>
-
         <div className="social-icons">
           <a href="https://www.facebook.com/pal.by.9">
             <i className="fab fa-facebook"></i>
@@ -25,7 +23,7 @@ const LandingPage = () => {
       </div>
       <footer>&copy; Copyright 2020</footer>
     </div>
-  )
-}
+  );
+};
 
 export default LandingPage;
