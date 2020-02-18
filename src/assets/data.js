@@ -81,6 +81,14 @@ export const projects = [
     url: 'https://paalchrb.github.io/board-game-shop/#/',
     imageUrl: './my-portfolio/images/boardgame.png',
     devIcons: ['javascript-plain', 'react-original-wordmark', 'sass-original']
+  },
+  {
+    name: 'GitHub Allstars',
+    header: '"Checkout the 100 most popular javascript GitHub repositories"',
+    description: 'Webapp built as my solution to an evaluation test for a consulting bureau. It fetches the 100 most popular JavaScript GitHub repositories and display them in a table with pagination. Built with react, sass and material ui framework. The timeframe for this test was 4 hours.',
+    url: 'https://paalchrb.github.io/github-allstars/',
+    imageUrl: './my-portfolio/images/gh-allstars.png',
+    devIcons: ['javascript-plain', 'react-original-wordmark', 'sass-original']
   }
 ];
 

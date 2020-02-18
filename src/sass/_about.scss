@@ -52,6 +52,10 @@
     padding: 1rem;
   }
   .tech-icons {
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: repeat(6, 1fr);
     font-size: 5rem;
     color: $darkest;
     text-align: center;
